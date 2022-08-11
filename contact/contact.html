@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="/contact/styles.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h4>Vardenik village <br><br> community hall page</h4> 
+		</div>
+			<div class="menu">
+				<a href="main.html">Home</a>
+				<a href="https://hy.wikipedia.org/wiki/%D5%8E%D5%A1%D6%80%D5%A4%D5%A5%D5%B6%D5%AB%D5%AF" target="_blank">About V.</a>
+				<a href="/contact/contact.html">Contact Us</a>
+			</div>
+			<div class="language">
+				<a href="/main(am).html"><i class="flag flag-armenia">hy</i>/<i class="flag flag-united-states">en</i></a>
+			</div>
+		</header>
+	<form>
+
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Vardenik community hall">
+		<input type="hidden" name="admin_email" value="narek.sargsyanchess@mail.ru">
+		<input type="hidden" name="form_subject" value="footer form">
+		<!-- END Hidden Required Fields -->
+<div class="wraplogin100">
+		<input type="text" name="Name" placeholder="Your name..." required id="name" value="Name" onfocus="this.value ='';" onblur="if (this.value == '') {this.value = 'Name'}"><br>
+		<input type="text" name="E-mail" placeholder="Your E-mail..." required id="mail" value="Email" onfocus="this.value ='';" onblur="if (this.value == '') {this.value = 'Email'}"><br>
+		<textarea name="message" value="Message" id="message" onfocus="this.value ='';" onblur="if (this.value == '') {this.value = 'Message'}">Message</textarea><br>
+		<button>Send</button>
+</div>
+	</form>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
